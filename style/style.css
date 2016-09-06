@@ -1,0 +1,436 @@
+/*Style for MurNTV */
+@font-face {
+    font-family: IntroBC;
+    src: url(/font/Intro-Book-Caps.ttf),  url(/font/Intro-Book-Caps.otf);
+	}
+html, body{
+width:100%;
+min-height: 100%;
+margin:0;
+padding:0;
+background:#ccc;
+
+}	
+* {
+margin:0 auto;
+padding:0;
+font-family: 'Ubuntu';
+color:#2C3E50;
+}
+.clear{
+width:0px;
+height:0px;
+clear:both;
+border:none;
+}
+a{
+text-decoration:none;
+}
+html {
+padding:0;
+}
+
+
+/*PAGE*/
+#donews{
+border:1px #3498DB solid;
+border-radius:10px;
+box-shadow:2px 2px 1px #3498DB;
+padding:20px;
+margin:10px;
+}
+#donews * {
+display:block;
+margin:0;
+border-radius:5px;
+}
+#donews input {
+border:1px #3498DB solid;
+height:30px;
+}
+#donews textarea{
+border:1px #3498DB solid;
+width:100%;
+min-height:60px;
+}
+#donews label{
+margin-top:10px;
+}
+/*Conteiner*/
+#cont{
+width:100%;
+margin:0 auto;
+margin-bottom:20px;
+/*background:#BFCFFF;*/
+}
+
+/*Conteiner*/
+/*END PAGE*/
+
+/*News*/
+.news{
+width:98%;
+float:left;
+margin: 5px auto ;
+border-radius:5px;
+border:1px solid #ddd;
+padding:10px;
+box-shadow:0px 1px 1px #ccc;
+background: #dddFFF;
+}
+.news h1{
+margin-bottom:10px;
+}
+.news hr{
+
+margin:10px auto;
+}
+.news p:last-child{
+
+}
+/*END_News*/
+/*---Login Page --*/
+
+#log_in{
+margin:0 auto;
+padding:40px;
+/*background:#ccc;
+ border:1px #000 solid; */
+}
+#log_in *{
+margin:0 auto;
+}
+#log_in form{
+/* border:1px green solid; */
+text-align:center;
+/*background:url("/img/zamok.png") center no-repeat;*/
+min-height:350px;
+}
+
+#log_in input[type=submit]{
+height:100px;
+width:100px;
+border-radius:50px;
+}
+#log_in form input{
+text-align:center;
+
+margin:0 auto 10px auto;
+padding:0 5px;
+line-height:40px;
+height:40px;
+display:block;
+border:0px #000 solid;
+border-radius:3px;
+background: #000;
+color:#fff;
+box-shadow:2px 2px 10px #000;
+}
+
+/*---END Login Page --*/
+
+/*USER CARD*/
+#user{
+background:#FFF;
+min-height:200px;
+border:1px solid #ccc;
+border-radius:5px;
+padding:5px;
+width:260px;
+float:left;
+margin:4px;
+text-align:center;
+box-shadow:2px 2px 5px #333;
+overflow:hidden;
+}
+#user * {
+border-radius:3px;
+}
+#user hr{
+
+}
+.card_head{
+line-height:43px;
+border-radius:3px;
+height:43px;
+background:#3498DB;
+margin-bottom:5px;
+
+}
+.card_head h3{
+display:inline;
+text-align:center;
+color:#FFF;
+text-shadow:1px 1px 0px #000;
+}
+
+#user h3{
+font-family: IntroBC;
+display:inline;
+}
+div.user_foto{
+width:100%;
+min-height:100px;
+
+margin:5px 0;
+}
+.desc{
+float:left;
+padding:5px 0;
+margin-left:105px;
+
+}
+#user .mail{
+color: #3498DB;
+}
+
+.info{
+margin:5px 0;
+text-align:left;
+}
+.desc p {
+
+}
+.desc a {
+color:#3498DB;
+display:block;
+margin:5px auto;
+}
+.desc p:nth-child(even){
+color:red;
+margin-bottom:5px;
+font-weight:bold;
+
+}
+#user p:last-child {
+display:block;
+position:relative;
+bottom:0px;
+color:#FFF;
+text-shadow:1px 1px 0px #000;
+background:#3498DB;
+padding: 5px 0 5px 0;
+
+}
+.info img{
+float:left;
+}
+/*END USER CARD*/
+
+/*GAME-PAGE*/
+#game {
+text-align:center;
+/* -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
+-webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+	-webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+	column-fill: auto; */
+}
+
+#player {
+border:1px #3498DB solid;
+border-radius:3px;
+text-align:left;
+min-width:30%;
+}
+#player * {
+
+}
+#player span, #player input, #player textarea {
+display:block;
+
+margin:0;
+
+}
+#player textarea{
+display:block;
+width:250px;
+height:52px;
+float:left;
+}
+#player input{
+display:block;
+width:50px;
+height:50px;
+border-radius:5px;
+border:none;
+float:left;
+}
+#player input[type=submit]{
+color:#ccc;
+border:1px #ccc solid;
+height:52px;
+width:52px;
+border-radius:26px;
+background:#fff;
+}
+#player p{
+background:#FFF;
+}
+#player img {
+display:block;
+border-radius:3px;
+float:left;
+}
+
+#player img:hover {
+/*width:100px;*/
+}
+#player input {
+text-align:center;
+}
+#player div {
+}
+
+#player h3 {
+display:none;
+position:relative;
+left:0;
+
+}
+#player:hover h3 {
+display:block;
+position:relative;
+left:0;
+
+}
+/*END_GAME-PAGE*/
+
+/*VIDEO*/
+#video input{
+font-size:1.2em;
+border:0px solid #00F ;
+border-radius:5px;
+text-align:center;
+padding:4px;
+
+} 
+#video .event_info h2  input {
+	width:100%;
+}
+#video  input[readonly=readonly]{
+	background :none;
+	border:none;
+	width:100%;
+}
+#video select{
+font-size:1.2em;
+background:#FFF;
+border:0px solid #00F;
+border-radius:5px;
+text-align:center;
+padding:4px;
+}
+#video h1, #video h2, #video h3, #video h4{
+margin:0 auto;
+width:100%;
+padding:0px;
+
+}
+#video h1, #video h2, #video h3 {
+text-align:center;
+}
+#add_work{
+display:none;
+/*display:block;*/
+}
+#add_work select{
+/*float:left;*/
+}
+#add_work input, #add_work label, #add_work select {
+display:block;
+margin:5px auto;
+text-align:center;
+}
+#add_work input[name=mat_name]{
+width:80%;
+}
+.stage1{
+background:#0f0;
+}
+
+.stage4{
+-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Safari */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+.event{
+width:95%;
+box-shadow:#819FF7 0px 5px 5px;
+padding:0px;
+margin:5px auto;
+border-radius:10px;
+background:#A9D0F5;
+overflow:hidden;
+border:0px solid #fff;
+
+}
+.event p{
+text-align:center;
+margin:0 auto;
+}
+.date{
+width:10%;
+min-height:60px;
+float:left;
+}
+.date p:nth-child(even){
+font-weight:bold;
+}
+.event_info{
+padding:0 10px ;
+width:82%;
+background:#A9D0F5;
+float:left;
+overflow:hidden;
+margin:0 auto;
+
+}
+.event_info :nth-child(2){
+text-align:center;
+}
+.event_info :last-child{
+text-align:right;
+
+}
+.act{
+min-width:5%;
+float:right;
+}
+.act p {
+line-height:68px;
+font-size: 1.2em;
+font-weight:bold;
+background:#fff;
+}
+#video .small_red{
+font-size:.9em;
+background:#FA5858;
+}
+#video .small_green{
+
+font-size:.9em;
+background:#81F781;
+}
+
+
+/*END_VIDEO*/
+
+/*Footer*/
+
+footer {
+position:fixed;
+width:100%;
+bottom:0px;
+text-align:center;
+margin:0 auto;
+background:#eee;
+}
+
+
+/*END Footer*/

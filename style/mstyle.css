@@ -1,0 +1,26 @@
+@media only screen and (max-device-width: 480px) {
+#log_in form{
+/* border:1px green solid; */
+text-align:center;
+width:100%;
+height:100%;
+/*background:url("/img/zamok.png") center no-repeat;*/
+}
+#log_in *{
+position:relative;
+}
+#log_in form input{
+
+display:block;
+width:86%;
+height:200px;
+}
+#log_in form img{
+position:relative;
+}
+#log_in input[type=submit]{
+height:200px;
+width:50%;
+border-radius:50px;
+}
+	}

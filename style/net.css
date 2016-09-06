@@ -1,0 +1,49 @@
+#A, #B, #D ,#H{
+border-radius:5px;
+width:auto;
+float:left;
+background:#1ABC9C;
+margin:10px;
+max-width:505px;
+}
+.hp{
+min-width:500px;
+max-width:505px;
+display:block;
+float:left;
+margin:4px;
+border:1px solid #000;
+}
+#A a, #B a, #D a, #H a{
+display:block;
+float:left;
+line-height:40px;
+border:1px solid #ccc;
+text-align:center;
+width:40px;
+height:40px;
+background:#ECF0F1;
+}
+
+#A a, #B a, #D a, #H a  {
+font-weight:bold;
+}
+#A a:hover, #B a:hover, #D a:hover, #H a:hover {
+color:red;
+}
+.hide{
+display:none;
+}
+.ndesc{
+width: 200px;
+border:1px solid #AAA;
+background:#FFF;
+position: absolute;
+
+}
+#H a:hover div.ndesc{
+display:block;
+}
+a:hover + div.ndesc {
+display:block;
+}
